@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Chirurgia powiek, badania wzroku, konsultacje."/>
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script defer src="js/script.js"></script>
+    <script defer src="js/cookies.js"></script>
+
+
+
+    <title>Marta Mesterhazy &mdash; Gabinet Okulistyczny </title>
+  </head>
+  <body>
+    <div class="home" id="home"></div>
+    <header class="header">
+      <div class="flex-logo">
+        <div>
+          <a class="logo-link" href="#home">
+            <img
+            class="logo-img"
+            alt="MArta Mesterhazy logo"
+            src="img/logo.png"
+            />
+          </div>
+          <span class="logo-text">Marta Mesterhazy</span>
+        </a>
+      </div>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a href="o_mnie.html" class="main-nav-link">O mnie</a></li>
+          <li><a href="dolegliwosci.html" class="main-nav-link">Dolegliwości</a></li>
+          <li><a href="efekty.html" class="main-nav-link">Efekty</a></li>
+          <li><a href="cennik.html" class="main-nav-link">Cennik</a></li>
+          <li><a href="rejestracja.html" class="main-nav-link">Rejestracja</a></li>
+        </ul>
+      </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <section class="section-hero">
+        <h2 class="heading-hero center--text"><span class="first-letter">G</span>ABINET <span class="first-letter">O</span>KULISTYCZNY</h2>
+      <div class="hero">
+        <div class="hero-text-box">
+          
+
+            <span class="hero-discription hero-discription--hidden">Chirurgia powiek</span>
+            
+            <span class="hero-discription hero-discription--hidden">Badania wzroku</span>
+            <span class="hero-discription hero-discription--hidden">Konsultacje</span>
+            <p class="motto hidden"> „Oczy zwierciadłem duszy”</p>
+            <div class="btn-hero">
+              <a href="rejestracja.html" class="btn btn--full margin-right-sm hidden"
+                >Umów wizytę</a
+              >
+              <a href="#szczegoly" class="btn btn--full hidden">Szczegóły &darr;</a>
+            </div>
+            
+          
+        </div>
+        <div class="carousel-box">
+
+          <div class="carousel">
+            <div class="slide">
+              <img src="img/karuzela1.jpg" alt="Zdjęcie 1">
+            </div>
+            <div class="slide">
+              <img src="img/karuzela2.jpg" alt="Zdjęcie 2">
+            </div>
+            <div class="slide">
+              <img src="img/karuzela3.jpg" alt="Zdjęcie 3">
+            </div>
+            <!-- Dodaj więcej zdjęć według potrzeb -->
+          </div>
+          <div class="controls">
+            <ion-icon class= "btnCarousel--icon prevBtn" name="caret-back-outline"></ion-icon>
+            <ion-icon class= "btnCarousel--icon nextBtn" name="caret-forward-outline"></ion-icon>
+          </div>
+          
+          <div class="indicators">
+            <!-- Wskaźniki (kropki) będą tutaj automatycznie generowane w JavaScript -->
+          </div>
+          
+        </div>
+       
+      </div>
+    </section>
+    <section class="section-details" id="szczegoly">
+      <div class="container details__container hidden">
+        <div class="details__tab-container">
+          <button
+            class="details__tab details__tab--active"
+            data-tab="1"
+          >
+            Chirurgia powiek
+          </button>
+          <button class="details__tab" data-tab="2">
+            Badania wzroku
+          </button>
+          <button class="details__tab" data-tab="3">
+           Konsultacje
+          </button>
+        </div>
+        <div
+          class="details__content details__content--1 details__content--active"
+        >
+        <div class="details__header__box">
+
+          <ion-icon class="details__icon details__icon--1" name="cut-outline"></ion-icon>
+          
+          <h2 class="details__header">
+            „Piękne spojrzenie, nowe perspektywy”
+          </h2>
+        </div>
+          <div class="grid grid--2-cols--details__box">
+            <img
+            class="img img-details"
+            alt="Zdjęcie zabiegu chirurgii powiek"
+            src="img/chirurgia_powiek.webp"
+          />
+          <dix class="details__text__box">
+
+            <p class="details__text">
+              Plastyka powiek górnych (blefaroplastyka) polega na wycięciu nadmiaru zwiotczałej skóry powiek. Niekiedy procedurę poszerza się o usunięcie przepukliny tłuszczu oczodołowego. Korektę wykonuje się w znieczuleniu miejscowym. Aby przystąpić do zabiegu niezbędne są prawidłowe wyniki badań laboratoryjnych.
+            </p>
+            <p class="details__text">Odmłodzenie okolicy oczu, likwidacja uczucia ciężkich i zmęczonych powiek oraz poprawa pola widzenia to tylko niektóre z efektów operacji. Poza nadmiarem skóry istnieje szereg schorzeń powiek kwalifikujących się do leczenia zabiegowego (opadnięcie powieki, gradówki, guzy i inne zmiany). 
+            </p>
+          </dix>
+          </div>
+        </div>
+
+        <div class="details__content details__content--2"
+        >
+        <div class="details__header__box">
+
+          <ion-icon class="details__icon details__icon--2" name="eye-outline"></ion-icon>
+          
+          <h2 class="details__header">
+            „Miej oko na swój wzrok”
+          </h2>
+        </div>
+          <div class="grid grid--2-cols--details__box">
+            <img
+            class="img img-details"
+            alt="Zdjęcie z badania wzroku"
+            src="img/badania_wzorku.webp"
+          />
+          <dix class="details__text__box">
+
+            <p class="details__text">
+              Narząd wzroku to wiodący ze zmysłów, odpowiada bowiem w ponad 85% 
+za odbiór bodźców z otoczenia. Warto regularnie badać swoje oczy, aby dobrym wzrokiem cieszyć się przez całe życie.
+            </p>
+            <p class="details__text">
+              Podstawowe badanie okulistyczne polega na ocenie oczu w biomikroskopie (przedni odcinek oraz dno oka), sprawdzeniu ciśnienia wewnątrzgałkowego i ostrości wzroku. W niektórych sytuacjach niezbędne jest poszerzenie diagnostyki o dodatkowe testy. Należy pamiętać, że krople używane do badania powodują przejściowe pogorszenie widzenia. 
+            </p>
+          </dix>
+          </div>
+        </div>
+        <div class="details__content details__content--3"
+        >
+        <div class="details__header__box">
+
+          <ion-icon class="details__icon details__icon--3" name="chatbubbles-outline"></ion-icon>
+          
+          <h2 class="details__header">
+            „Właściwy punkt widzenia”
+          </h2>
+        </div>
+          <p class="details__text">
+            
+            Podczas konsultacji okulistycznej przeprowadzany jest wywiad lekarski oraz badanie okulistyczne. 
+Następnie zapada decyzja co do dalszego postępowania (kwalifikacja do zabiegu lub wdrożenie innych metod leczenia).  
+
+          </p>
+          <div class="grid grid--2-cols--details__box">
+            <img
+            class="img img-details"
+            alt="Zdjęcie z konsultacją u lekarza"
+            src="img/konsultacje.webp"
+          />
+          <dix class="details__text__box margin-left">
+
+            <p class="details__text">
+              Objawy, które powinny skłonić do wizyty:
+            </p>
+            <ul class="details__text details__list">
+              <li>pojawienie się zmian na powiekach</li>
+              <li>swędzenie brzegów powiek</li>
+              <li>ciągłe łzawienie</li>
+              <li>zaniewidzenie</li>
+              <li>zamazanie obrazu</li>
+              <li>zaczerwienienie oka</li>
+              <li>uczucie ciała obcego w oku</li>
+              <li>ból oka</li>
+              <li>ograniczenie pola widzenia</li>
+            </ul>
+            
+          </dix>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+
+        <div class=" grid grid--3-cols center-footer center--text">
+          
+          <div class="footer-list contact">
+            <p class="footer-heading">Rejestracja</p>
+            
+          <a class="footer-link contact-flex center--element" href="tel:510598335"
+          ><ion-icon class="contact-icon" name="call-outline"></ion-icon>
+          <span>510 598 335</span></a
+          >
+          
+          <a class="footer-link contact-flex center--element" href="mailto:info@okulista-koszalin.pl"
+          ><ion-icon class="contact-icon" name="mail-outline"></ion-icon
+            ><span>info@okulista-koszalin.pl</span></a
+            >
+          </div>
+        
+          <div class="footer-list adress">
+            <p class="footer-heading">Adres</p>
+            <p class="footer-text">ul. Hallera 30A/1</p>
+            <p class="footer-text">75-736 Koszalin</p>
+          </div>
+          
+          <div class="footer-list company-information">
+            <p class="footer-heading">Dane działalności</p>
+            
+            <p class="footer-text">NIP: &zwnj;6692332878</p>
+            
+            <p class="footer-text">REGON: 360575204</p>
+          </div>
+        </div>
+        <div class="footer-flex">
+
+          <div class="flex-logo">
+            <div>
+              
+              <a class="logo-link" href="#home">
+                <img
+                class="logo-img"
+                alt="MArta Mesterhazy logo"
+                src="img/logo.png"
+                />
+              </div>
+              <span class="logo-text">Marta Mesterhazy</span>
+            </a>
+          </div>
+          <p class="copyright">
+            Copyright &copy; <span class="year">2027</span> by Seweryn Zagajny.<br> All
+            rights reserved. <a class="privacy-policy" href="privacy.html">Polityka prywatności</a>
+          </p> 
+        </div>
+      </div>
+      </footer>
+      <div class="cookie-banner hidden-banner">
+        <p class="cookie-text">
+          Ta strona używa plików cookie, aby zapewnić najlepsze doświadczenie
+          użytkownika.
+          <a class="cookie-privacy-policy" href="privacy.html">Polityka prywatności</a>
+        </p>
+        <div class="banner-actions">
+          <div class="accept-cookies btn btn--outline">Akceptuję</div>
+          <div class="close-banner">
+            <svg
+              class="close-banner-icon-svg"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              ></path>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
